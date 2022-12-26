@@ -1,7 +1,7 @@
 # DICDNet: Deep Interpretable Convolutional Dictionary Networkfor Metal Artifact Reduction in CT Images
 [Hong Wang](https://hongwang01.github.io/), Yuexiang Li, Nanjun He, Kai Ma, [Deyu Meng](http://gr.xjtu.edu.cn/web/dymeng), [Yefeng Zheng](https://sites.google.com/site/yefengzheng/)
 
-[DICDNet_supp.pdf](https://cowtransfer.com/s/7f38c2a44c754c)   password：h8yvdu
+DICDNet_supp.pdf, [Baidu NetDisk](https://cowtransfer.com/s/7f38c2a44c754c)   password：h8yvdu [Google Drive](https://drive.google.com/file/d/1IprOzUse-L1bJV1UjcJPB2QeceCwirPD/view?usp=sharing)
 
 # We propose an interpretable network framework which is only based on CT image domain data.
 
