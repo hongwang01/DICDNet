@@ -22,7 +22,7 @@ CUDA 10.1
 GPU NVIDIA Tesla V100-SMX2
 
 
-##Model Formulation for MAR
+## Model Formulation for MAR
 <div  align="center"><img src="figs/formulation.jpg" height="100%" width="100%" alt=""/></div>
 
 
