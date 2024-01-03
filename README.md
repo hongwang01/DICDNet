@@ -47,7 +47,7 @@ python3 test_DICDNet.py  --gpu_id 0 --data_path "data/test/" --model_dir "pretra
 ```
 
 ## Metric
-[PSNR/SSIM](https://github.com/hongwang01/RCDNet/tree/master/Performance_evaluation)
+Please refer to https://github.com/hongwang01/OSCNet/tree/main/metric
 
 
 ## Experiments on Synthesized DeepLesion
