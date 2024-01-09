@@ -32,12 +32,21 @@ The proposed DICDNet is naturally built by unfolding the corresponding optimizat
 
 ## Benchmark Dataset
 
-**Please refer to [InDuDoNet](https://github.com/hongwang01/InDuDoNet) for details and [SynDeepLesion](https://github.com/hongwang01/SynDeepLesion) for downloading the synthesized DeepLesion dataset.**
+Please download from [SynDeepLesion](https://github.com/hongwang01/SynDeepLesion), and put the dataset into the folder "DICDNet/data" as:
+
+```
+data/train/train_640geo
+data/train/train_640geo_dir.txt
+data/train/trainmask.npy
+data/test/test_640geo
+data/test/test_640geo_dir.txt
+data/test/testmask.npy
+```
 
 
 ## Training
 ```
-python train_DICDNet.py --gpu_id 0  --data_path "data/train/" --batchSize 1 --batchnum 1 --log_dir "logs/" --model_dir "models/"
+python train_DICDNet.py --gpu_id 0  --data_path "data/train/" --batchSize 16 --batchnum 1000 --log_dir "logs/" --model_dir "models/"
 ```
 *Please note that for the demo, “batchnum=1, batchSize=1". Please change it according to your own training set.*
 
@@ -73,9 +82,9 @@ Please refer to https://github.com/hongwang01/OSCNet/tree/main/metric
 ```
 ## References
 
-[1] Hong Wang, Yuexiang Li, Haimiao Zhang, Jiawei Chen, Kai Ma, Deyu Meng, and Yefeng Zheng. InDuDoNet: An interpretable dual domain network for CT metal artifact reduction. In International Conference on Medical Image Computing and ComputerAssisted Intervention, pages 107–118, 2021.
+[1] Hong Wang, Yuexiang Li, Haimiao Zhang, Jiawei Chen, Kai Ma, Deyu Meng, and Yefeng Zheng. InDuDoNet: An interpretable dual domain network for CT metal artifact reduction. In International Conference on Medical Image Computing and Computer Assisted Intervention, pages 107–118, 2021.
 
 [2] Hong Wang, Yuexiang Li, Haimiao Zhang, Deyu Meng, and Yefeng Zheng. InDuDoNet+: A Deep Unfolding Dual Domain Network for Metal Artifact Reduction in CT Images. Medical Image Analysis, 2022.
 
 ## Contact
-If you have any question, please feel free to concat Hong Wang (Email: hongwang9209@hotmail.com)
+If you have any questions, please feel free to contact Hong Wang (Email: hongwang9209@hotmail.com)
